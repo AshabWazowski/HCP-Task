@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300;400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+ 
+ body{
+     overflow: hidden;
+ }
+ nav{
+    position: absolute;
+    height: 100vh;
+    width: 12%;
+ }
+.container .current{
+    color: blue;
+   
+}
+ .logo{
+    padding: 2rem 2rem;
+ }
+ .logo a{
+     text-decoration: none;
+     font-size: 2rem;
+     font-family: 'Roboto';
+     font-weight: bold;
+     color: black;
+ }
+ .main{
+     position: absolute;
+     top: 45%;
+     right: 45%;
+     text-align: center;
+ }
+ .main h1{
+     font-size: 6.5rem;
+     font-family: 'Roboto', 'sans-serif';
+ }
+.container{
+    position: relative;
+    top: 25%;
+    left: 0%;
+    padding: 1rem;
+    line-height: 2rem; 
+    
+}
+.container ul li{
+    padding: 0;
+    list-style: none;
+   
+}
+.container ul li a{
+    text-decoration: none;
+    color: #585656
+}
+#practice{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.practice::before{
+    content: '+';
+    font-size: 2rem;
+    float: right;
+}
+.activate::before{
+    content: '-';
+    font-size: 2rem;
+    float: right;
+}
+
+.work::before{
+    content: '+';
+    font-size: 2rem;
+    float: right;
+}
+.work2::before{
+    content: '-';
+    font-size: 2rem;
+    float: right;
+}
+.news::before{
+    content: '+';
+    font-size: 2rem;
+    float: right;
+} 
+.news2::before{
+    content: '-';
+    font-size: 2rem;
+    float: right;
+}
+.people::before{
+    content: '+';
+    font-size: 1.5rem;
+    float: right;
+    font-weight: bold;
+}
+.people2:before{
+    content: '-';
+    font-size: 1.5rem;
+    float: right;
+    font-weight: bold;
+}
+.pjList::before{
+    content: '+';
+    font-size: 1.5rem;
+    float: right;
+    font-weight: bold;
+}
+.pjList2:before{
+    content: '-';
+    font-size: 1.5rem;
+    float: right;
+    font-weight: bold;
+}
+#practice:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+#work{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+
+}
+#work:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+#news{
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+    font-size: 1.2rem;
+
+}
+#news:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+.dropdown{
+    display: none;
+    line-height: 1rem;
+}
+.show{
+    display: block;
+}
+#mini-dropdown{
+    padding-left: 1rem;
+}
+#mini-dropdown2{
+    padding-left: 1rem;
+}
+nav ul li ul li ul li a{
+    font-size: 0.8rem;
+}
+#dropdown1 li a:hover{
+    color: blue;
+}
+#mini-dropdown li a:hover{
+color: blue;
+}
+
+#dropdown2 li a:hover{
+    color: red;
+}
+#mini-dropdown2 li a:hover{
+    color: red;
+}
+
+#dropdown3 li a:hover{
+    color: orange;
+}
